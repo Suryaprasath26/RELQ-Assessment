@@ -1,0 +1,38 @@
+[
+  {
+    "testCase": "Valid Login",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected": "success"
+  },
+  {
+    "testCase": "Locked User Login",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expected": "locked"
+  },
+  {
+    "testCase": "Invalid Username",
+    "username": "invalid_user",
+    "password": "secret_sauce",
+    "expected": "failure"
+  },
+  {
+    "testCase": "Invalid Password",
+    "username": "standard_user",
+    "password": "wrong_pass",
+    "expected": "failure"
+  },
+  {
+    "testCase": "Empty Username",
+    "username": "",
+    "password": "secret_sauce",
+    "expected": "required_username"
+  },
+  {
+    "testCase": "Empty Password",
+    "username": "standard_user",
+    "password": "",
+    "expected": "required_password"
+  }
+]
