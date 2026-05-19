@@ -121,62 +121,97 @@ Invalid Checkout Validation,
 Session Validation After Logout
 
 
+
 ## 🚀 How to Run This Project
 
 ---
-1️⃣ Clone the Repository -
+1️⃣ **Clone the Repository**
+ ```bash
 git clone https://github.com/Suryaprasath26/RELQ-Assessment.git
+```
 
-2️⃣ Navigate to Project Folder - 
+2️⃣ **Navigate to Project Folder**
+ ```bash 
 cd RELQ-Assessment
+```
 
-3️⃣ Install Playwright - 
+3️⃣ **Install Playwright** 
+ ```bash
 npm init playwright@latest
+```
 
-▶️ Execute Test Cases - 
-Run All Tests - 
+▶️ **Execute Test Cases**
+Run All Tests 
+ ```bash
 npx playwright test
+```
 
-▶️Run Specific Test File - 
+▶️**Run Specific Test File** 
 Login Tests - 
+ ```bash
 npx playwright test tests/login.spec.ts
+```
 
 JSON Data-Driven Login Tests - 
+ ```bash
 npx playwright test tests/login-json.spec.ts
+```
 
 Product Tests - 
+ ```bash
 npx playwright test tests/product.spec.ts
+```
 
 Cart Tests - 
+ ```bash
 npx playwright test tests/cart.spec.ts
+```
 
 Checkout Tests - 
+ ```bash
 npx playwright test tests/checkout.spec.ts
+```
 
 Navigation Tests - 
+ ```bash
 npx playwright test tests/navigation.spec.ts
+```
 
 Negative Tests - 
+ ```bash
 npx playwright test tests/negative.spec.ts
+```
 
-🌐 Run Tests in Different Browsers - 
+🌐 **Run Tests in Different Browsers** 
 Chromium - 
+ ```bash
 npx playwright test --project=chromium
+```
 
 Firefox - 
+ ```bash
 npx playwright test --project=firefox
+```
 
 WebKit - 
+ ```bash
 npx playwright test --project=webkit
+```
 
-🖥️ Run Tests in Headed Mode - 
+🖥️ **Run Tests in Headed Mode** 
+ ```bash
 npx playwright test --headed
+```
 
-🐞 Run Tests in Debug Mode - 
+🐞 **Run Tests in Debug Mode** 
+ ```bash
 npx playwright test --debug
+```
 
-📊 Generate HTML Report - 
+📊 **Generate HTML Report** 
+ ```bash
 npx playwright show-report
+```
 
 📸 Reports & Screenshots - 
 HTML Reports are generated automatically by Playwright.
@@ -185,7 +220,7 @@ Videos and traces can also be enabled for debugging.
 
 ---
 
-🏗️ Framework Design Highlights 
+**🏗️ Framework Design Highlights**
 ✅ Page Object Model (POM)
 ✅ Reusable Methods
 ✅ Readonly Locators
